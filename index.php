@@ -17,8 +17,8 @@
           <ul>
             <?php
             $A = ['mela','kiwi','pera','banana'];
-            for ($i=0,$i<count($A),$i++) {
-              print'<li>'.$A[$i].'</li>'
+            for ($i=0;$i<count($A);$i++) {
+              print'<li>'.$A[$i].'</li>';
             }
             ?>
             </ul>
